@@ -1,22 +1,16 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
-//import './App.css';
-import './index.css';
-import Header from './component/Header';
-import Form from './component/Form';
-import TodoList from './component/TodoList';
+import React, { Component, useState } from 'react';
+import './App.css';
+import "./index.css";
+import Product from "./component/Product/Product.js";
+import ProductList from './component/ProductList/ProductList';
 
 const App = () => {
-    const [TextInput, setTextInput] = useState('');
-    const [Todos, setTodos] = useState([]);
+    return (
+        <div className='container' id="title">
+            <h1>Shopping List</h1>
+            <ProductList />
+        </div>
+    );
 
-    return <div className="App">
-        <h1>
-            <Header name='Mohi' />
-        </h1>
-        <Form setTextInput={setTextInput} setTodos={setTodos} Todos={Todos} />
-        <TodoList />
-    </div>;
-
-};
+}
 export default App;
