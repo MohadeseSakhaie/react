@@ -1,8 +1,10 @@
 import React, { Component, useState } from 'react';
 import './App.css';
 import "./index.css";
-import Product from "./component/Product/Product.js";
+// import  "./component/navBar/navBar";
+// import Product from "./component/Product/Product.js";
 import ProductList from './component/ProductList/ProductList';
+
 
 const App = () => {
     return (

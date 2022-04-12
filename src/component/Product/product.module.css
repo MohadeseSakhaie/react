@@ -1,30 +1,33 @@
 .product {
-    border: solid black 1px;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
-    width: 50rem;
-    justify-content: space-around;
-    margin-top: 15px;
-    background-color: rgb(245, 246, 247);
+  border: solid black 1px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  width: 50rem;
+  justify-content: space-around;
+  margin-top: 15px;
+  background-color: rgb(245, 246, 247);
 }
-.butt{
-    /* background-color: rgb(150, 148, 148); */
-    border-radius: 10px;
-    border: 1px solid rgb(138, 137, 137);
-    width: auto;
-    padding: 2px 5px;
+.butt {
+  /* background-color: rgb(150, 148, 148); */
+  border-radius: 10px;
+  border: 1px solid rgb(138, 137, 137);
+  width: auto;
+  padding: 2px 5px;
 }
-.inc{
-    background-color: #92BA92;
+.inc {
+  background-color: #92ba92;
 }
-.dec{
-    background-color: #e7a1a14f;
+.dec {
+  background-color: #e7a1a14f;
 }
-.input{
-    border-radius: 10px;
-    border: 1px solid rgb(138, 137, 137);
-    min-width: 100px;
-    max-width: 100px;
-    padding: 5px;
+.input {
+  border-radius: 10px;
+  border: 1px solid rgb(138, 137, 137);
+  min-width: 100px;
+  max-width: 100px;
+  padding: 5px;
+}
+.nav {
+  padding: 10px;
 }
