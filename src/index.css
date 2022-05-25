@@ -7,10 +7,9 @@
 
 body {
   /* background-image: linear-gradient(120deg, #e2c35d, #d88771); */
-  font-size: large;
   font-family: "poppins", sans-serif;
   min-height: 100vh;
-  background-color: #F1DDBF;
+  background-color: #e1d1dd6a;
 }
 .container {
   display: flex;
@@ -29,7 +28,4 @@ body {
   justify-content: space-around;
   margin-top: 15px;
   background-color: rgb(245, 246, 247);
-}
-.nav {
-  padding: 10px;
 }
